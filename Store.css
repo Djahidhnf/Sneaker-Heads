@@ -1,0 +1,59 @@
+.container.sidebar {
+    display: inline-flex;
+    flex-direction: column;
+    
+    float: left;
+    margin: 0 2%;
+    row-gap: 5px;
+    box-shadow: 0 0 20px #b7d3ea;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+
+#store__window {
+    margin: 3% 0;
+}
+
+.sidebar__search > input {
+    width: 100%;
+}
+
+.price__number {
+    display: inline-block;
+    width: 45px;
+}
+
+input[ type = "checkbox"] {
+    margin-left: 5%;
+}
+
+.Product__window {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+
+}
+
+.product-img > img {
+    box-shadow: 0 0 10px 3px lightgrey;
+    cursor: pointer;
+}
+
+.Product-text {
+    padding: 2% 17%;
+    text-align: left;
+}
+
+.Product-text * {
+    margin: 4% 0;
+}
+
+.Product-text > p {
+    color: gray;
+}
+
+.Product__window span {
+    color: #41a139;
+}
