@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resources/sneakers_500225.png">
     <title>Sneaker Heads Store</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./Store.css">
@@ -17,27 +18,27 @@
             <img src="./resources/sneakers_500225.png" alt="Sneaker Head logo" width="35px">
         </a>
         <ul class="nav__links">
-            <li>
-                <a href="./store.html">Store</a>
-            </li>
-            <li>
-                <a href="#">Men</a>
-            </li>
-            <li>
-                <a href="#">Wemen</a>
-            </li>
-            <li>
-                <a href="#">Kids</a>
-            </li>
+            <li><a href="./store.html">Store</a></li>
+            <li><a href="./store.html">Men</a></li>
+            <li><a href="./store.html">Women</a></li>
+            <li><a href="./store.html">Kids</a></li>
         </ul>
         <div class="menu-cart">
             <i class="ri-heart-line"></i>
-            <i class="ri-shopping-bag-line"></i> 
+            <i class="ri-shopping-bag-line"></i>
+            <i class="ri-menu-line"></i>
         </div>
            <!--make a drop down menu with a login and signup-->
     </nav>
 
-    
+    <div id="sub-menu">
+        <ul>
+            <li><a href="./store.html">Store <span><i class="ri-arrow-right-s-line"></i></span></a></li>
+            <li><a href="#">Men <span><i class="ri-arrow-right-s-line"></i></span></a></li>
+            <li><a href="#">Wemen <span><i class="ri-arrow-right-s-line"></i></span></a></li>
+            <li><a href="#">Kids <span><i class="ri-arrow-right-s-line"></i></span></a></li>
+        </ul>
+    </div>
 
 
 
@@ -50,7 +51,11 @@
             <hr>
             <div class="checkbox">
                 <input type="checkbox">
-                <label for="checkbox">Sports</label>
+                <label for="checkbox">Sneakers</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="checkbox">Running</label>
             </div>
             <div class="checkbox">
                 <input type="checkbox">
@@ -58,8 +63,9 @@
             </div>
             <div class="checkbox">
                 <input type="checkbox">
-                <label for="checkbox">slides</label>
+                <label for="checkbox">Slides and Sandals</label>
             </div>
+            
             <hr>
             <div class="price">
                 <label for="price">Price<br></bt></label>
@@ -99,7 +105,7 @@
 
         <div class="Product__window">
 
-            <div class="Nike 1">
+            <div class="Product Nike Men Sneakers Sports Casual">
                 <div class="product-img">
                     <img src="./resources/Nike 1.webp" alt="" width="250px">
                 </div>
@@ -110,9 +116,9 @@
                 </div>
             </div>
 
-            <div class="Nike 2">
+            <div class="Product Men Sneakers Sports Casual">
                 <div class="product-img">
-                    <img src="./resources/Nike 2.webp" alt="" width="250px">
+                    <img src="./resources/Nike 2.webp" width="250px">
                 </div>
                 <div class="Product-text">
                     <h4>Nike Air Max 95 QS<br></h4>
@@ -121,31 +127,31 @@
                 </div>
             </div>
 
-            <div class="Nike 3">
+            <div class="Product Nike Men Slippers Sports Casual">
                 <div class="product-img">
-                    <img src="./resources/Nike 3.webp" alt="" width="250px">
+                    <img src="./resources/Nike 3.webp" width="250px">
                 </div>
                 <div class="Product-text">
                     <h4>Nike x MMW 005<br></h4>
-                    <p>Slippers For Men<br></p>
+                    <p>Slides For Men<br></p>
                     <span>232.21 $</span>
                 </div>
             </div>
 
-            <div class="Tommy 1">
+            <div class="Product Men sneakers Sports Casual">
                 <div class="product-img">
-                    <img src="./resources/Tommy 1.jpg" alt="" width="250px">
+                    <img src="./resources/Tommy 1.jpg" width="250px">
                 </div>
                 <div class="Product-text">
                     <h4>Blocked Leather Trainers<br></h4>
-                    <p>Shoes For Men<br></p>
+                    <p>Sneakers For Men<br></p>
                     <span>134.30 $</span>
                 </div>
             </div>
 
-            <div class="Tommy 2">
+            <div class="Product Men sneakers Casual">
                 <div class="product-img">
-                    <img src="./resources/Tommy 2.jpg" alt="" width="250px">
+                    <img src="./resources/Tommy 2.jpg" width="250px">
                 </div>
                 <div class="Product-text">
                     <h4>Prep TH Modern Running Trainers<br></h4>
@@ -154,26 +160,20 @@
                 </div>
             </div>
 
-            <div class="Tommy 3">
-                <div class="product-img">
-                    <img src="./resources/Tommy 3.jpg" alt="" width="250px">
-                </div>
-                <div class="Product-text">
-                    <h4>LOGO AND LACE-UP SNEAKERS<br></h4>
-                    <p>Shoes For Men<br></p>
-                    <span>122.1 $</span>
+            <div class="Product Men sneakers Casual">
+                    <div class="product-img">
+                        <img src="./resources/Tommy 3.jpg" width="250px">
+                    </div>
+                    <div class="Product-text">
+                        <h4>LOGO AND LACE-UP SNEAKERS<br></h4>
+                        <p>Sneakers For Men<br></p>
+                        <span>122.1 $</span>
+                    </div>
                 </div>
             </div>
+            
         </div>
-
-
-
-
-
-
-
-
-    </div>
+        </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
